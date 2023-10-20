@@ -1,0 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/hvdtrial-brandon-grotesque');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-height: 70vh;
+}
+
+body {
+    font-family: 'HvDTrial Brandon Grotesque', sans-serif;
+    background-color: #3d5a80;
+    color: #E0FBFC;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    color: #EE6C4D;
+}
+
+.beer {
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .beer {
+        flex-wrap: nowrap;
+    }
+}
+
+.text {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #EE6C4D;
+}
+
+.text span {
+    font-weight: normal;
+    color: #E0FBFC;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #EE6C4D;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    color: #293241;
+    margin: 3rem;
+}
+
+button:hover {
+    background-color: #293241;
+    color: #EE6C4D;
+}
